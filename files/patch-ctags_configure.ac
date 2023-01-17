@@ -1,0 +1,13 @@
+--- ctags/configure.ac.orig	2022-12-27 22:01:00 UTC
++++ ctags/configure.ac
+@@ -512,10 +512,6 @@ AC_OBJEXT
+ AC_EXEEXT
+ AC_C_TYPEOF
+ 
+-if test "${enable_static}" = "yes"; then
+-	LDFLAGS="$LDFLAGS -static"
+-fi
+-
+ # Check for host type
+ case "$host" in
+   i?86-*-mingw* | x86_64-*-mingw*)
