@@ -3,63 +3,7 @@
 ## Current failure
     [ 28%] Building CXX object CodeLite/CMakeFiles/libcodelite.dir/xor_string.cpp.o
     cd /wrkdirs/usr/ports/editors/codelite/work/.build/CodeLite && ccache /usr/local/libexec/ccache/c++ -DGTK_USE_NATIVEBOOK=1 -DINSTALL_DIR=\"/usr/local/share/codelite\" -DNDEBUG -DPLUGINS_DIR=\"/usr/local/lib/codelite\" -DUSE_SFTP=0 -DWXUSINGDLL -DWXUSINGDLL_WXSQLITE3 -DYY_NEVER_INTERACTIVE=1 -D_FILE_OFFSET_BITS=64 -D_THREAD_SAFE -D__WXGTK__ -Dlibcodelite_EXPORTS -DwxUSE_GUI=1 -I/usr/local/include/gtk-3.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/pango-1.0 -I/usr/local/include/cairo -I/usr/local/include/gdk-pixbuf-2.0 -I/usr/local/include/atk-1.0 -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/sdk/wxsqlite3/include -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/sdk/codelite_indexer/network -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/sdk/websocketpp -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/sdk/asio-1.12.1 -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/PCH -I/wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/Interfaces -I/usr/local/lib/wx/include/gtk3-unicode-3.2 -I/usr/local/include/wx-3.2 -O2 -pipe -I/usr/local/include/harfbuzz -I/usr/local/include -fstack-protector-strong -fno-strict-aliasing -Wno-deprecated-declarations -isystem /usr/include/harfbuzz -std=c++20 -O2 -pthread -fPIC -fPIC -o CMakeFiles/libcodelite.dir/xor_string.cpp.o -c /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/xor_string.cpp
-    --- CodeLite/CMakeFiles/libcodelite.dir/scope_parser.cpp.o ---
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/scope_parser.cpp:858:13: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
-        if (yyn = yydefred[yystate]) goto yyreduce;
-            ~~~~^~~~~~~~~~~~~~~~~~~
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/scope_parser.cpp:858:13: note: place parentheses around the assignment to silence this warning
-        if (yyn = yydefred[yystate]) goto yyreduce;
-                ^
-            (                      )
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/scope_parser.cpp:858:13: note: use '==' to turn this assignment into an equality comparison
-        if (yyn = yydefred[yystate]) goto yyreduce;
-                ^
-                ==
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/scope_parser.cpp:902:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-        yyerror("syntax error");
-                ^
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/scope_parser.cpp:1357:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-        yyerror("yacc stack overflow");
-                ^
-    3 warnings generated.
-    --- CodeLite/CMakeFiles/libcodelite.dir/var_parser.cpp.o ---
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/var_parser.cpp:769:13: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
-        if (yyn = yydefred[yystate]) goto yyreduce;
-            ~~~~^~~~~~~~~~~~~~~~~~~
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/var_parser.cpp:769:13: note: place parentheses around the assignment to silence this warning
-        if (yyn = yydefred[yystate]) goto yyreduce;
-                ^
-            (                      )
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/var_parser.cpp:769:13: note: use '==' to turn this assignment into an equality comparison
-        if (yyn = yydefred[yystate]) goto yyreduce;
-                ^
-                ==
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/var_parser.cpp:813:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-        yyerror("syntax error");
-                ^
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/var_parser.cpp:1417:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-        yyerror("yacc stack overflow");
-                ^
-    3 warnings generated.
-    --- CodeLite/CMakeFiles/libcodelite.dir/typedef_parser.cpp.o ---
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/typedef_parser.cpp:564:13: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
-        if (yyn = yydefred[yystate]) goto yyreduce;
-            ~~~~^~~~~~~~~~~~~~~~~~~
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/typedef_parser.cpp:564:13: note: place parentheses around the assignment to silence this warning
-        if (yyn = yydefred[yystate]) goto yyreduce;
-                ^
-            (                      )
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/typedef_parser.cpp:564:13: note: use '==' to turn this assignment into an equality comparison
-        if (yyn = yydefred[yystate]) goto yyreduce;
-                ^
-                ==
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/typedef_parser.cpp:608:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-        yyerror("syntax error");
-                ^
-    /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/typedef_parser.cpp:958:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-        yyerror("yacc stack overflow");
-                ^
-    3 warnings generated.
+
     --- CodeLite/CMakeFiles/libcodelite.dir/tags_storage_sqlite3.cpp.o ---
     In file included from /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/tags_storage_sqlite3.cpp:25:
     In file included from /wrkdirs/usr/ports/editors/codelite/work/codelite-17.0.0/CodeLite/tags_storage_sqlite3.h:31:
