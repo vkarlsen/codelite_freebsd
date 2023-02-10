@@ -20,7 +20,7 @@ GH_TUPLE=	eranif:ctags:p6.0.20230108.0:ctags/ctags \
 #		eranif:wx-config-msys2:fe65daf:wxconfig/wx-config-msys2
 
 USES=		cmake:noninja compiler:c++20-lang dos2unix gettext gnome pathfix \
-		pkgconfig shebangfix sqlite
+		pkgconfig shebangfix sqlite desktop-file-utils
 #USE_GCC=	13
 USE_GNOME+=	cairo gtk20
 DOS2UNIX_GLOB=	*.cpp *.txt
